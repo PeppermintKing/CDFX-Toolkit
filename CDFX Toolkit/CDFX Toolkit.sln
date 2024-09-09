@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDFX Toolkit", "CDFX Toolkit\CDFX Toolkit.csproj", "{49016987-3914-4DBC-8B5A-31EC0A6417FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49016987-3914-4DBC-8B5A-31EC0A6417FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49016987-3914-4DBC-8B5A-31EC0A6417FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49016987-3914-4DBC-8B5A-31EC0A6417FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49016987-3914-4DBC-8B5A-31EC0A6417FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {760409AF-A4E5-4250-92D4-657422D14BB5}
+	EndGlobalSection
+EndGlobal
