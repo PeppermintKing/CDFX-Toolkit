@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CDFX Toolkit": {
+      "commandName": "Project",
+      "commandLineArgs": "CDF1.cdfx CDF2.cdfx"
+    }
+  }
+}

@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Blake Dansfield\\source\\repos\\CDFX-Toolkit\\CDFX Toolkit\\CDFX Toolkit\\CDFX Toolkit.csproj",
-        "projectName": "CDFX Toolkit",
+        "projectName": "cdfx",
         "projectPath": "C:\\Users\\Blake Dansfield\\source\\repos\\CDFX-Toolkit\\CDFX Toolkit\\CDFX Toolkit\\CDFX Toolkit.csproj",
         "packagesPath": "C:\\Users\\Blake Dansfield\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Blake Dansfield\\source\\repos\\CDFX-Toolkit\\CDFX Toolkit\\CDFX Toolkit\\obj\\",
@@ -37,11 +37,26 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.49.1, )"
+            },
+            "Spectre.Console.Cli": {
+              "target": "Package",
+              "version": "[0.49.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

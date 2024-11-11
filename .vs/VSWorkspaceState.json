@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CDFX Toolkit",
+    "\\CDFX Toolkit\\CDFX Toolkit"
   ],
-  "SelectedNode": "\\C:\\Users\\Blake Dansfield\\Source\\Repos\\CDFX-Toolkit",
+  "SelectedNode": "\\CDFX Toolkit\\CDFX Toolkit\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

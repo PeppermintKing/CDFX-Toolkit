@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE MSRSW PUBLIC "-//ASAM//DTD CALIBRATION DATA FORMAT:V2.1.0:LAI:IAI:XML //EN" "cdf_v2.1.0.sl.dtd">
+<MSRSW CREATOR-VERSION="V2.1.0" CREATOR="ASAM AE CDF" >
+  <SHORT-NAME>CDF_Base</SHORT-NAME>
+  <CATEGORY>CDF21</CATEGORY>
+  <SW-SYSTEMS>
+    <SW-SYSTEM>
+      <SHORT-NAME>information-not-available</SHORT-NAME>
+      <SW-INSTANCE-SPEC>
+        <SW-INSTANCE-TREE>
+          <SHORT-NAME>Examples\CDF21demo_1\CDF21demo\CDF21demo_1</SHORT-NAME>
+          <CATEGORY>NO_VCD</CATEGORY>
+
+          <SW-INSTANCE-TREE-ORIGIN>
+            <SYMBOLIC-FILE>CDF21demo.a2l</SYMBOLIC-FILE>
+            <DATA-FILE>CDF21demo.hex</DATA-FILE>
+          </SW-INSTANCE-TREE-ORIGIN>
+
+          <SW-CS-COLLECTIONS>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Array</SW-FEATURE-REF>
+              <REVISION>1.10</REVISION>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_ASCII</SW-FEATURE-REF>
+              <REVISION>1.10</REVISION>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Axis</SW-FEATURE-REF>
+              <REVISION>9.99</REVISION>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Curve</SW-FEATURE-REF>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Map</SW-FEATURE-REF>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Scalar</SW-FEATURE-REF>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>Vectors</SW-FEATURE-REF>
+            </SW-CS-COLLECTION>
+          </SW-CS-COLLECTIONS>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ARRAY.ELEMENT[0]</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>Vectors</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>5.0000</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+        </SW-INSTANCE-TREE>
+      </SW-INSTANCE-SPEC>
+    </SW-SYSTEM>
+  </SW-SYSTEMS>
+</MSRSW>

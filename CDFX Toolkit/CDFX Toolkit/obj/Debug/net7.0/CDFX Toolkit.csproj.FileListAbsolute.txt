@@ -1,0 +1,22 @@
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\Spectre.Console.dll
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\Spectre.Console.Cli.dll
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\de\Spectre.Console.Cli.resources.dll
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\fr\Spectre.Console.Cli.resources.dll
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\sv\Spectre.Console.Cli.resources.dll
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\CDFX Toolkit.csproj.AssemblyReference.cache
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\CDFX Toolkit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\CDFX Toolkit.AssemblyInfoInputs.cache
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\CDFX Toolkit.AssemblyInfo.cs
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\CDFX Toolkit.csproj.CoreCompileInputs.cache
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\CDFX Toolkit.sourcelink.json
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\CDFX Too.C835891F.Up2Date
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\CDFX Toolkit.genruntimeconfig.cache
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\cdfx.exe
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\cdfx.deps.json
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\cdfx.runtimeconfig.json
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\cdfx.dll
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\bin\Debug\net7.0\cdfx.pdb
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\cdfx.dll
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\refint\cdfx.dll
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\cdfx.pdb
+C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\obj\Debug\net7.0\ref\cdfx.dll

@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE MSRSW PUBLIC "-//ASAM//DTD CALIBRATION DATA FORMAT:V2.1.0:LAI:IAI:XML //EN" "cdf_v2.1.0.sl.dtd">
+<MSRSW CREATOR-VERSION="V2.1.0" CREATOR="ASAM AE CDF" >
+  <SHORT-NAME>CDF_Base</SHORT-NAME>
+  <CATEGORY>CDF21</CATEGORY>
+  <SW-SYSTEMS>
+    <SW-SYSTEM>
+      <SHORT-NAME>information-not-available</SHORT-NAME>
+      <SW-INSTANCE-SPEC>
+        <SW-INSTANCE-TREE>
+          <SHORT-NAME>Examples\CDF21demo_1\CDF21demo\CDF21demo_1</SHORT-NAME>
+          <CATEGORY>NO_VCD</CATEGORY>
+
+          <SW-INSTANCE-TREE-ORIGIN>
+            <SYMBOLIC-FILE>CDF21demo.a2l</SYMBOLIC-FILE>
+            <DATA-FILE>CDF21demo.hex</DATA-FILE>
+          </SW-INSTANCE-TREE-ORIGIN>
+
+          <SW-CS-COLLECTIONS>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Array</SW-FEATURE-REF>
+              <REVISION>1.10</REVISION>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_ASCII</SW-FEATURE-REF>
+              <REVISION>1.10</REVISION>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Axis</SW-FEATURE-REF>
+              <REVISION>9.99</REVISION>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Curve</SW-FEATURE-REF>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Map</SW-FEATURE-REF>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>CDF20_Scalar</SW-FEATURE-REF>
+            </SW-CS-COLLECTION>
+            <SW-CS-COLLECTION>
+              <CATEGORY>FEATURE</CATEGORY>
+              <SW-FEATURE-REF>Vectors</SW-FEATURE-REF>
+            </SW-CS-COLLECTION>
+          </SW-CS-COLLECTIONS>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ARRAY.ELEMENT[0]</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>Vectors</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>5.0000</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ARRAY.ELEMENT[1]</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>Vectors</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>6.0000</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ARRAY.ELEMENT[2]</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>Vectors</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>7.0000</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ARRAY.ELEMENT[3]</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>Vectors</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>5.0000</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ARRAY.ELEMENT[4]</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>Vectors</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>32.0000</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ASCII.N42_wU8</SHORT-NAME>
+            <CATEGORY>ASCII</CATEGORY>
+            <SW-FEATURE-REF>CDF20_ASCII</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VT xml:space="preserve">CDF20 Test String</VT>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ASCII.UTF16</SHORT-NAME>
+            <CATEGORY>ASCII</CATEGORY>
+            <SW-FEATURE-REF>CDF20_ASCII</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VT xml:space="preserve">String with €</VT>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ASCII.UTF32</SHORT-NAME>
+            <CATEGORY>ASCII</CATEGORY>
+            <SW-FEATURE-REF>CDF20_ASCII</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VT xml:space="preserve">String with €</VT>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.ASCII.UTF8</SHORT-NAME>
+            <CATEGORY>ASCII</CATEGORY>
+            <SW-FEATURE-REF>CDF20_ASCII</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VT xml:space="preserve">String with €</VT>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.AXIS.X_AXIS_xU16</SHORT-NAME>
+            <CATEGORY>COM_AXIS</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Axis</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve">Um/p</UNIT-DISPLAY-NAME>
+              <SW-ARRAYSIZE>
+                <V>5</V></SW-ARRAYSIZE>
+              <SW-VALUES-PHYS>
+                <V>52.0000</V>
+                <V>55.0000</V>
+                <V>56.0000</V>
+                <V>64.0000</V>
+                <V>66.0000</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.AXIS.X_CU_AXIS_xU16_wU8</SHORT-NAME>
+            <CATEGORY>CURVE_AXIS</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Axis</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve">Cluster</UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.0</V>
+                <V>0.1</V>
+                <V>0.2</V>
+                <V>0.3</V>
+                <V>0.8</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+            <SW-AXIS-CONTS>
+              <SW-AXIS-CONT>
+                <CATEGORY>STD_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">°C</UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>206.0000</V>
+                  <V>238.0000</V>
+                  <V>286.0000</V>
+                  <V>302.0000</V>
+                  <V>318.0000</V>
+                </SW-VALUES-PHYS>
+              </SW-AXIS-CONT>
+            </SW-AXIS-CONTS>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.AXIS.X_RE_AXIS_xS8</SHORT-NAME>
+            <CATEGORY>RES_AXIS</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Axis</SW-FEATURE-REF>
+            <SW-VALUE-CONT SI="phys:float64;scales:sint8">
+              <UNIT-DISPLAY-NAME xml:space="preserve">Um/p</UNIT-DISPLAY-NAME>
+              <SW-ARRAYSIZE>
+                <V>7</V></SW-ARRAYSIZE>
+              <SW-VALUES-PHYS>
+                <VG>
+                  <V>10</V>
+                  <V>0</V></VG>
+                <VG>
+                  <V>18</V>
+                  <V>30</V></VG>
+                <VG>
+                  <V>33</V>
+                  <V>40</V></VG>
+                <VG>
+                  <V>51</V>
+                  <V>50</V></VG>
+                <VG>
+                  <V>52</V>
+                  <V>90</V></VG>
+                <VG>
+                  <V>68</V>
+                  <V>120</V></VG>
+                <VG>
+                  <V>85</V>
+                  <V>126</V></VG>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.AXIS.Y_CU_AXIS_xU16_wU8</SHORT-NAME>
+            <CATEGORY>CURVE_AXIS</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Axis</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve">Cluster</UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.1</V>
+                <V>0.3</V>
+                <V>0.4</V>
+                <V>0.5</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+            <SW-AXIS-CONTS>
+              <SW-AXIS-CONT>
+                <CATEGORY>STD_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">Um/p</UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>256.0000</V>
+                  <V>272.0000</V>
+                  <V>288.0000</V>
+                  <V>320.0000</V>
+                </SW-VALUES-PHYS>
+              </SW-AXIS-CONT>
+            </SW-AXIS-CONTS>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.BOOLEAN.FW_wU8</SHORT-NAME>
+            <CATEGORY>BOOLEAN</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Scalar</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VT xml:space="preserve">true</VT>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.BOOLEAN.FW_wU8_VTab</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Scalar</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VT xml:space="preserve">TRUE</VT>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.CUBOID.xS8_yS8_zS8_wS16</SHORT-NAME>
+            <CATEGORY>CUBOID</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VG>
+                  <VG>
+                    <V>-9</V>
+                    <V>-13</V>
+                    <V>-6</V>
+                  </VG>
+                  <VG>
+                    <V>-7</V>
+                    <V>-1</V>
+                    <V>-1</V>
+                  </VG>
+                  <VG>
+                    <V>-7</V>
+                    <V>3</V>
+                    <V>3</V>
+                  </VG>
+                  <VG>
+                    <V>-6</V>
+                    <V>3</V>
+                    <V>6</V>
+                  </VG>
+                </VG>
+                <VG>
+                  <VG>
+                    <V>-4</V>
+                    <V>-8</V>
+                    <V>-1</V>
+                  </VG>
+                  <VG>
+                    <V>-2</V>
+                    <V>4</V>
+                    <V>5</V>
+                  </VG>
+                  <VG>
+                    <V>-2</V>
+                    <V>6</V>
+                    <V>7</V>
+                  </VG>
+                  <VG>
+                    <V>-1</V>
+                    <V>6</V>
+                    <V>11</V>
+                  </VG>
+                </VG>
+                <VG>
+                  <VG>
+                    <V>-4</V>
+                    <V>-8</V>
+                    <V>-1</V>
+                  </VG>
+                  <VG>
+                    <V>-2</V>
+                    <V>4</V>
+                    <V>4</V>
+                  </VG>
+                  <VG>
+                    <V>-2</V>
+                    <V>6</V>
+                    <V>6</V>
+                  </VG>
+                  <VG>
+                    <V>-1</V>
+                    <V>6</V>
+                    <V>9</V>
+                  </VG>
+                </VG>
+                <VG>
+                  <VG>
+                    <V>-3</V>
+                    <V>-7</V>
+                    <V>0</V>
+                  </VG>
+                  <VG>
+                    <V>-1</V>
+                    <V>5</V>
+                    <V>5</V>
+                  </VG>
+                  <VG>
+                    <V>-2</V>
+                    <V>6</V>
+                    <V>7</V>
+                  </VG>
+                  <VG>
+                    <V>0</V>
+                    <V>7</V>
+                    <V>10</V>
+                  </VG>
+                </VG>
+                <VG>
+                  <VG>
+                    <V>-2</V>
+                    <V>-6</V>
+                    <V>1</V>
+                  </VG>
+                  <VG>
+                    <V>0</V>
+                    <V>6</V>
+                    <V>6</V>
+                  </VG>
+                  <VG>
+                    <V>0</V>
+                    <V>7</V>
+                    <V>8</V>
+                  </VG>
+                  <VG>
+                    <V>1</V>
+                    <V>8</V>
+                    <V>13</V>
+                  </VG>
+                </VG>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+            <SW-AXIS-CONTS>
+              <SW-AXIS-CONT>
+                <CATEGORY>STD_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">°C</UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>-51.0000</V>
+                  <V>150.0000</V>
+                  <V>210.0000</V></SW-VALUES-PHYS>
+              </SW-AXIS-CONT>
+              <SW-AXIS-CONT>
+                <CATEGORY>STD_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">Um/p</UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>-20.0000</V>
+                  <V>-13.0000</V>
+                  <V>-1.0000</V>
+                  <V>3.0000</V></SW-VALUES-PHYS>
+              </SW-AXIS-CONT>
+              <SW-AXIS-CONT>
+                <CATEGORY>STD_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">mbar</UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>-51.0000</V>
+                  <V>-20.0000</V>
+                  <V>140.0000</V>
+                  <V>270.0000</V>
+                  <V>300.0000</V></SW-VALUES-PHYS>
+              </SW-AXIS-CONT>
+            </SW-AXIS-CONTS>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.CURVE.FKL_xFIX_wU8</SHORT-NAME>
+            <CATEGORY>CURVE</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Curve</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve">grad C</UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.0000</V>
+                <V>0.1014</V>
+                <V>0.1989</V>
+                <V>0.3003</V>
+                <V>0.4017</V>
+                <V>0.4992</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+            <SW-AXIS-CONTS>
+              <SW-AXIS-CONT>
+                <CATEGORY>FIX_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">°C</UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>-49.0000</V>
+                  <V>-48.0000</V>
+                  <V>-47.0000</V>
+                  <V>-46.0000</V>
+                  <V>-45.0000</V>
+                  <V>-44.0000</V>
+                </SW-VALUES-PHYS>
+              </SW-AXIS-CONT>
+            </SW-AXIS-CONTS>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.CURVE.GKL_xCOM_wU16</SHORT-NAME>
+            <CATEGORY>CURVE</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Curve</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve">grad C</UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.1287</V>
+                <V>0.1326</V>
+                <V>0.1365</V>
+                <V>0.1404</V>
+                <V>0.1443</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+            <SW-AXIS-CONTS>
+              <SW-AXIS-CONT>
+                <CATEGORY>COM_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">Um/p</UNIT-DISPLAY-NAME>
+                <SW-INSTANCE-REF>CDF20.AXIS.X_AXIS_xU16</SW-INSTANCE-REF>
+              </SW-AXIS-CONT>
+            </SW-AXIS-CONTS>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.CURVE.KL_xRESs8_wS16</SHORT-NAME>
+            <CATEGORY>CURVE</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Curve</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve">grad C</UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.0000</V>
+                <V>0.0195</V>
+                <V>0.0663</V>
+                <V>0.1287</V>
+                <V>0.1365</V>
+                <V>0.1443</V>
+                <V>0.3978</V>
+                <V>0.4680</V>
+                <V>0.5928</V>
+                <V>-0.0039</V>
+                <V>-0.0039</V>
+                <V>-0.0039</V>
+                <V>-0.0039</V>
+                <V>-0.0039</V>
+                <V>-0.0039</V>
+                <V>-0.0039</V>
+                <V>0.0273</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+            <SW-AXIS-CONTS>
+              <SW-AXIS-CONT SI="phys:float64;scales:sint8">
+                <CATEGORY>RES_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">Um/p</UNIT-DISPLAY-NAME>
+                <SW-INSTANCE-REF>CDF20.AXIS.X_RE_AXIS_xS8</SW-INSTANCE-REF>
+                <SW-ARRAYSIZE>
+                  <V>17</V></SW-ARRAYSIZE>
+              </SW-AXIS-CONT>
+            </SW-AXIS-CONTS>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.CURVE.KL_xU8_wU8</SHORT-NAME>
+            <CATEGORY>CURVE</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Curve</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve">grad C</UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.0429</V>
+                <V>0.0468</V>
+                <V>0.0507</V>
+                <V>0.0546</V>
+                <V>0.0585</V>
+                <V>0.0624</V>
+                <V>0.0663</V>
+                <V>0.0702</V>
+                <V>0.0741</V>
+                <V>0.0780</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+            <SW-AXIS-CONTS>
+              <SW-AXIS-CONT>
+                <CATEGORY>STD_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">°C</UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>-49.0000</V>
+                  <V>-48.0000</V>
+                  <V>-47.0000</V>
+                  <V>-46.0000</V>
+                  <V>-45.0000</V>
+                  <V>-44.0000</V>
+                  <V>-43.0000</V>
+                  <V>-42.0000</V>
+                  <V>-41.0000</V>
+                  <V>-40.0000</V>
+                </SW-VALUES-PHYS>
+              </SW-AXIS-CONT>
+            </SW-AXIS-CONTS>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.Dependent.Base.FW_wU16</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Scalar</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>17</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.Dependent.Ref_1.FW_wU16</SHORT-NAME>
+            <CATEGORY>DEPENDENT_VALUE</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Scalar</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>85</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.MAP.KF_xCURu16u8_yCURu16u8_wU8</SHORT-NAME>
+            <CATEGORY>MAP</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Map</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve">Cluster</UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VG>
+                  <LABEL>256.0</LABEL>
+                  <V>2.3</V>
+                  <V>2.4</V>
+                  <V>2.5</V>
+                  <V>2.6</V>
+                  <V>2.7</V></VG>
+                <VG>
+                  <LABEL>320.0</LABEL>
+                  <V>2.8</V>
+                  <V>2.9</V>
+                  <V>3.0</V>
+                  <V>3.1</V>
+                  <V>3.2</V></VG>
+                <VG>
+                  <LABEL>320.0</LABEL>
+                  <V>3.3</V>
+                  <V>3.4</V>
+                  <V>3.5</V>
+                  <V>3.6</V>
+                  <V>3.7</V></VG>
+                <VG>
+                  <LABEL>320.0</LABEL>
+                  <V>3.8</V>
+                  <V>3.9</V>
+                  <V>4.0</V>
+                  <V>4.1</V>
+                  <V>4.2</V></VG>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+            <SW-AXIS-CONTS>
+              <SW-AXIS-CONT>
+                <CATEGORY>CURVE_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">Cluster</UNIT-DISPLAY-NAME>
+                <SW-INSTANCE-REF>CDF20.AXIS.X_CU_AXIS_xU16_wU8</SW-INSTANCE-REF>
+                <SW-ARRAYSIZE>
+                  <V>5</V></SW-ARRAYSIZE>
+              </SW-AXIS-CONT>
+              <SW-AXIS-CONT>
+                <CATEGORY>CURVE_AXIS</CATEGORY>
+                <UNIT-DISPLAY-NAME xml:space="preserve">Cluster</UNIT-DISPLAY-NAME>
+                <SW-INSTANCE-REF>CDF20.AXIS.Y_CU_AXIS_xU16_wU8</SW-INSTANCE-REF>
+                <SW-ARRAYSIZE>
+                  <V>4</V></SW-ARRAYSIZE>
+              </SW-AXIS-CONT>
+            </SW-AXIS-CONTS>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.MATRIX_DIM.N34_wS8</SHORT-NAME>
+            <CATEGORY>VAL_BLK</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Array</SW-FEATURE-REF>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-ARRAYSIZE>
+                <V>3</V>
+                <V>4</V></SW-ARRAYSIZE>
+              <SW-VALUES-PHYS>
+                <VG>
+                  <LABEL></LABEL>
+                  <V>0.0977</V>
+                  <V>0.1953</V>
+                  <V>0.3052</V></VG>
+                <VG>
+                  <LABEL></LABEL>
+                  <V>0.4028</V>
+                  <V>0.5005</V>
+                  <V>0.5982</V></VG>
+                <VG>
+                  <LABEL></LABEL>
+                  <V>0.6958</V>
+                  <V>0.8057</V>
+                  <V>0.9033</V></VG>
+                <VG>
+                  <LABEL></LABEL>
+                  <V>1.0010</V>
+                  <V>1.0987</V>
+                  <V>1.1963</V></VG>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.SCALAR.ANNOTATION</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>434</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.SCALAR.BOOLEAN_COMBINED</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>65535</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.SCALAR.FW_VTAB</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <VT xml:space="preserve">two </VT>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF20.SCALAR.FW_wU16</SHORT-NAME>
+            <CATEGORY>VALUE</CATEGORY>
+            <SW-FEATURE-REF>CDF20_Scalar</SW-FEATURE-REF>
+            <SW-MODEL-LINK xml:space="preserve">ML_CDF20.SCALAR.FW_wU16</SW-MODEL-LINK>
+            <SW-VALUE-CONT>
+              <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+              <SW-VALUES-PHYS>
+                <V>0.4151</V>
+              </SW-VALUES-PHYS>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF21_STRUCTURE_1</SHORT-NAME>
+            <CATEGORY>STRUCTURE</CATEGORY>
+            <SW-INSTANCE>
+              <SHORT-NAME>A</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>16</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[0]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>32</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[1]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>17</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[2]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>52</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[3]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>641</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[4]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>2</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[5]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>33</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[6]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>20</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[7]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>100</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[8]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>17</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+            <SW-INSTANCE>
+              <SHORT-NAME>B[9]</SHORT-NAME>
+              <CATEGORY>VALUE</CATEGORY>
+              <SW-VALUE-CONT>
+                <UNIT-DISPLAY-NAME xml:space="preserve"></UNIT-DISPLAY-NAME>
+                <SW-VALUES-PHYS>
+                  <V>83</V>
+                </SW-VALUES-PHYS>
+              </SW-VALUE-CONT>
+            </SW-INSTANCE>
+          </SW-INSTANCE>
+
+          <SW-INSTANCE>
+            <SHORT-NAME>CDF21.FIM_Blob</SHORT-NAME>
+            <LONG-NAME>binary blob for FIM matrix</LONG-NAME>
+            <CATEGORY>BLOB</CATEGORY>
+            <SW-VALUE-CONT>
+              <SW-VALUES-CODED>
+                <VH>0102030405060708
+                    090A0B0C0D0E0F10</VH> 
+              </SW-VALUES-CODED>
+            </SW-VALUE-CONT>
+          </SW-INSTANCE>
+
+        </SW-INSTANCE-TREE>
+      </SW-INSTANCE-SPEC>
+    </SW-SYSTEM>
+  </SW-SYSTEMS>
+</MSRSW>

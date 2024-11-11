@@ -9,3 +9,5 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CDFX_Toolkit
 build_property.ProjectDir = C:\Users\Blake Dansfield\source\repos\CDFX-Toolkit\CDFX Toolkit\CDFX Toolkit\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
